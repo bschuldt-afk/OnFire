@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeIconFile</key>
+			<string>OnFire_fileicon</string>
+			<key>CFBundleTypeName</key>
+			<string>CookLang Data</string>
+			<key>CFBundleTypeRole</key>
+			<string>None</string>
+			<key>LSHandlerRank</key>
+			<string>Owner</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>com.knibbelknabbel.cook</string>
+			</array>
+		</dict>
+	</array>
+	<key>UTExportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>CookLang Data</string>
+			<key>UTTypeIconFile</key>
+			<string>OnFire_fileicon</string>
+			<key>UTTypeIcons</key>
+			<dict>
+				<key>UTTypeIconBackgroundName</key>
+				<string>OnFire_fileicon</string>
+				<key>UTTypeIconBadgeName</key>
+				<string>OnFire_fileicon</string>
+			</dict>
+			<key>UTTypeIdentifier</key>
+			<string>com.knibbelknabbel.cook</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>cook</string>
+					<string>COOK</string>
+				</array>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

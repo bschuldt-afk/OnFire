@@ -1,0 +1,128 @@
+{
+  "schema": {
+    "source": {
+      "description": "Where the recipe came from. Usually a URL, can also be text (eg. a book title).",
+      "examples": [
+        "https://example.org/recipe",
+        "The Palomar Cookbook <urn:isbn:9781784720995>",
+        "mums"
+      ]
+    },
+    "source.name": {
+      "description": "Where the recipe came from. Usually a URL, can also be text (eg. a book title).",
+      "examples": [
+        "https://example.org/recipe",
+        "The Palomar Cookbook <urn:isbn:9781784720995>",
+        "mums"
+      ]
+    },
+    "author": {
+      "description": "The author of the recipe.",
+      "examples": ["John Doe"]
+    },
+    "source.author": {
+      "description": "The author of the recipe.",
+      "examples": ["John Doe"]
+    },
+    "source.url": {
+      "description": "The URL of the recipe if nested format is used.",
+      "examples": ["https://example.org/recipe"]
+    },
+    "servings": {
+      "description": "Indicates how many people the recipe is for. Used for scaling quantities. Leading number is used for scaling, anything else is ignored but shown as units.",
+      "examples": ["2", "15 cups worth"]
+    },
+    "serves": {
+      "description": "Indicates how many people the recipe is for. Used for scaling quantities. Leading number is used for scaling, anything else is ignored but shown as units.",
+      "examples": ["2", "15 cups worth"]
+    },
+    "yield": {
+      "description": "Indicates how many people the recipe is for. Used for scaling quantities. Leading number is used for scaling, anything else is ignored but shown as units.",
+      "examples": ["2", "15 cups worth"]
+    },
+    "course": {
+      "description": "Meal category or course.",
+      "examples": ["dinner"]
+    },
+    "category": {
+      "description": "Meal category or course.",
+      "examples": ["dinner"]
+    },
+    "locale": {
+      "description": "The locale of the recipe. Used for spelling/grammar during edits, and for pluralisation of amounts. Uses ISO 639 language code, then optionally an underscore and the ISO 3166 alpha2 'country code' for dialect variants",
+      "examples": ["es_VE", "en_GB", "fr"]
+    },
+    "time required": {
+      "description": "The preparation + cook time of the recipe. Various formats can be parsed, if in doubt use `HhMm` format to avoid plurals and locales.",
+      "examples": ["45 minutes", "1 hour 30 minutes", "1h30m"]
+    },
+    "time": {
+      "description": "The preparation + cook time of the recipe. Various formats can be parsed, if in doubt use `HhMm` format to avoid plurals and locales.",
+      "examples": ["45 minutes", "1 hour 30 minutes", "1h30m"]
+    },
+    "duration": {
+      "description": "The preparation + cook time of the recipe. Various formats can be parsed, if in doubt use `HhMm` format to avoid plurals and locales.",
+      "examples": ["45 minutes", "1 hour 30 minutes", "1h30m"]
+    },
+    "time.prep": {
+      "description": "Time for preparation steps only.",
+      "examples": ["2 hour 30 min"]
+    },
+    "prep time": {
+      "description": "Time for preparation steps only.",
+      "examples": ["2 hour 30 min"]
+    },
+    "time.cook": {
+      "description": "Time for actual cooking steps.",
+      "examples": ["10 minutes"]
+    },
+    "cook time": {
+      "description": "Time for actual cooking steps.",
+      "examples": ["10 minutes"]
+    },
+    "difficulty": {
+      "description": "Recipe difficulty level.",
+      "examples": ["easy"]
+    },
+    "cuisine": {
+      "description": "The cuisine of the recipe.",
+      "examples": ["French"]
+    },
+    "diet": {
+      "description": "Indicates a dietary restriction or guideline for which this recipe or menu item is suitable, e.g. diabetic, halal etc.",
+      "examples": ["gluten-free"]
+    },
+    "tags": {
+      "description": "List of descriptive tags.",
+      "examples": [["2022", "baking", "summer"]]
+    },
+    "image": {
+      "description": "URL to a recipe image.",
+      "examples": ["https://example.org/recipe_image.jpg"]
+    },
+    "images": {
+      "description": "URL to a recipe image.",
+      "examples": ["https://example.org/recipe_image.jpg"]
+    },
+    "picture": {
+      "description": "URL to a recipe image.",
+      "examples": ["https://example.org/recipe_image.jpg"]
+    },
+    "pictures": {
+      "description": "URL to a recipe image.",
+      "examples": ["https://example.org/recipe_image.jpg"]
+    },
+    "title": {
+      "description": "Title of the recipe.",
+      "examples": ["Uzbek Manti"]
+    },
+    "introduction": {
+      "description": "Additional notes about the recipe.",
+      "examples": ["This recipe is a traditional Uzbek dish that is made with a variety of vegetables and meat."]
+    },
+    "description": {
+      "description": "Additional notes about the recipe.",
+      "examples": ["This recipe is a traditional Uzbek dish that is made with a variety of vegetables and meat."]
+    }
+  }
+}

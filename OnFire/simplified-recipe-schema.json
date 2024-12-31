@@ -1,0 +1,79 @@
+{
+  "recipeFields": [
+    {
+      "command": "title",
+      "description": "Title of the recipe",
+      "example": "Uzbek Manti"
+    },
+    {
+      "command": "source",
+      "description": "Where the recipe came from. Can be URL or text",
+      "example": "https://example.org/recipe"
+    },
+    {
+      "command": "author",
+      "description": "The author of the recipe",
+      "example": "John Doe"
+    },
+    {
+      "command": "servings",
+      "description": "Number of people the recipe is for. Used for scaling quantities",
+      "example": "4"
+    },
+    {
+      "command": "course",
+      "description": "Meal category or course",
+      "example": "dinner"
+    },
+    {
+      "command": "locale",
+      "description": "Recipe locale for spelling/grammar. Uses ISO 639 language code with optional ISO 3166 country code",
+      "example": "de_DE"
+    },
+    {
+      "command": "time",
+      "description": "Total preparation and cooking time",
+      "example": "1h30m"
+    },
+    {
+      "command": "prep_time",
+      "description": "Time for preparation steps only",
+      "example": "30m"
+    },
+    {
+      "command": "cook_time",
+      "description": "Time for actual cooking steps",
+      "example": "1h"
+    },
+    {
+      "command": "difficulty",
+      "description": "Recipe difficulty level",
+      "example": "easy"
+    },
+    {
+      "command": "cuisine",
+      "description": "The cuisine type of the recipe",
+      "example": "French"
+    },
+    {
+      "command": "diet",
+      "description": "Dietary restrictions or guidelines",
+      "example": "vegetarian"
+    },
+    {
+      "command": "tags",
+      "description": "List of descriptive tags",
+      "example": "['summer', 'grill', 'quick']"
+    },
+    {
+      "command": "image",
+      "description": "URL to a recipe image",
+      "example": "https://example.org/recipe_image.jpg"
+    },
+    {
+      "command": "introduction",
+      "description": "Brief introduction or description of the recipe",
+      "example": "A traditional family recipe passed down through generations"
+    }
+  ]
+}

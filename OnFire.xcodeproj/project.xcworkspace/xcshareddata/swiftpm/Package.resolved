@@ -1,0 +1,15 @@
+{
+  "originHash" : "d2319bc9546572fd791b2fc5fdd389e351f8ed8ef20a2c2b4ad19ab2d6c3da12",
+  "pins" : [
+    {
+      "identity" : "cooklang-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/cooklang/cooklang-swift",
+      "state" : {
+        "revision" : "43281f622ffbcc091134d82cd8ba8ec3521aaddb",
+        "version" : "0.1.5"
+      }
+    }
+  ],
+  "version" : 3
+}
